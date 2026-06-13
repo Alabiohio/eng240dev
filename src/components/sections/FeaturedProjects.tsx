@@ -32,7 +32,6 @@ export default function FeaturedProjects() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div>
-            <h2 className="text-secondary-cyan text-sm font-black tracking-widest uppercase mb-4">Innovation Portfolio</h2>
             <h3 className="text-4xl md:text-6xl font-black text-gray-900 tracking-tight">Featured Projects</h3>
           </div>
           <Link
@@ -65,7 +64,7 @@ export default function FeaturedProjects() {
                   </button>
                 </div>
               </div>
-              
+
               <div className="p-8 flex-grow flex flex-col">
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tags.map((tag) => (
