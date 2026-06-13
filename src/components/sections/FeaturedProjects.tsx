@@ -26,13 +26,13 @@ const projects = [
   },
 ];
 
-export default function FeaturedProjects() {
+export default function FeaturedProjects({ isDark = false }: { isDark?: boolean }) {
   return (
-    <section className="py-32 bg-white text-gray-900">
+    <section className={`py-32 ${isDark ? 'bg-black text-white' : 'bg-white text-gray-900'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div>
-            <h3 className="text-4xl md:text-6xl font-black text-gray-900 tracking-tight">Featured Projects</h3>
+            <h3 className={`text-4xl md:text-6xl font-black tracking-tight ${isDark ? 'text-white' : 'text-gray-900'}`}>Featured Projects</h3>
           </div>
           <Link
             href="/projects"

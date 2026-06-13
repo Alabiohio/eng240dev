@@ -15,7 +15,7 @@ const LinkedInIcon = ({ size = 20 }: { size?: number }) => (
 
 const team = [
   {
-    name: "Olanrewaju Ohio",
+    name: "Olanrewaju Johnson",
     role: "Community Lead & Founder",
     department: "Software Engineering",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop",
