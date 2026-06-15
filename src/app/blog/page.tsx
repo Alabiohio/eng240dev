@@ -17,9 +17,9 @@ const posts = [
     date: "June 05, 2026",
     category: "Robotics Core",
     image: "https://images.unsplash.com/photo-1561144443-f546f610996c?q=80&w=800&auto=format&fit=crop",
-    accent: "text-secondary-cyan",
-    bg: "bg-secondary-cyan/5",
-    border: "border-secondary-cyan/10"
+    accent: "text-secondary-brand",
+    bg: "bg-secondary-brand/5",
+    border: "border-secondary-brand/10"
   },
   {
     title: "Mastering Next.js 16 Server Actions",

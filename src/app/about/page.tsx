@@ -48,7 +48,7 @@ export default function AboutPage() {
               title: "Active Mission", 
               desc: "Leveraging code to solve problems while preparing members for successful careers in tech.",
               color: "border-gray-100",
-              accent: "text-secondary-cyan",
+              accent: "text-secondary-brand",
               bg: "bg-gray-50/50"
             },
             { 

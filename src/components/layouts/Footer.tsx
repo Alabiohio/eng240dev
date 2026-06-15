@@ -18,7 +18,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-background text-white border-t border-white/5 pt-24 pb-12">
+    <footer className="bg-neutral-950 text-white border-t border-white/5 pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-20">
           <div className="col-span-1 md:col-span-1">
@@ -56,7 +56,7 @@ export default function Footer() {
               <a href="#" className="w-12 h-12 rounded-xl bg-neutral-900 flex items-center justify-center text-text-muted hover:bg-primary hover:text-black transition-all border border-white/5" aria-label="GitHub">
                 <SiGithub size={20} />
               </a>
-              <a href="#" className="w-12 h-12 rounded-xl bg-neutral-900 flex items-center justify-center text-text-muted hover:bg-secondary-cyan hover:text-black transition-all border border-white/5" aria-label="LinkedIn">
+              <a href="#" className="w-12 h-12 rounded-xl bg-neutral-900 flex items-center justify-center text-text-muted hover:bg-secondary-brand hover:text-black transition-all border border-white/5" aria-label="LinkedIn">
                 <LinkedInIcon size={20} />
               </a>
               <a href="#" className="w-12 h-12 rounded-xl bg-neutral-900 flex items-center justify-center text-text-muted hover:bg-white hover:text-black transition-all border border-white/5" aria-label="X (formerly Twitter)">
@@ -64,14 +64,14 @@ export default function Footer() {
               </a>
             </div>
             <p className="text-text-muted text-sm font-medium">
-              E: command@eng240dev.com
+              E: info@eng240dev.com
             </p>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-text-muted text-sm font-medium italic">
-            &copy; {currentYear} ENG240 Developers. Protocol Initialized.
+            &copy; {currentYear} ENG240 Developers.
           </p>
           <div className="flex gap-8 text-xs font-bold uppercase tracking-widest text-text-muted">
             <a href="#" className="hover:text-white transition-colors">Privacy</a>

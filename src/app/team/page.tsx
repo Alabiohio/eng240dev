@@ -46,7 +46,7 @@ const team = [
 
 export default function TeamPage() {
   return (
-    <div className="pt-32 pb-24 bg-background min-h-screen text-white">
+    <div className="pt-32 pb-24 bg-neutral-950 min-h-screen text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-24">
           <h2 className="text-primary text-sm font-black tracking-widest uppercase mb-4">Elite Division</h2>
@@ -87,7 +87,7 @@ export default function TeamPage() {
                 <a href="#" className="w-10 h-10 rounded-xl bg-neutral-900 flex items-center justify-center text-text-muted hover:bg-primary hover:text-black transition-all border border-white/5">
                   <SiGithub size={18} />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-xl bg-neutral-900 flex items-center justify-center text-text-muted hover:bg-secondary-cyan hover:text-black transition-all border border-white/5">
+                <a href="#" className="w-10 h-10 rounded-xl bg-neutral-900 flex items-center justify-center text-text-muted hover:bg-secondary-brand hover:text-black transition-all border border-white/5">
                   <LinkedInIcon size={18} />
                 </a>
                 <a href="#" className="w-10 h-10 rounded-xl bg-neutral-900 flex items-center justify-center text-text-muted hover:bg-white hover:text-black transition-all border border-white/5">

@@ -68,7 +68,7 @@ export default function EventsPage() {
                 <p className="text-gray-600 text-lg leading-relaxed mb-10 font-medium italic">
                   "{event.description}"
                 </p>
-                <button className="self-start px-10 py-4 bg-primary text-white rounded-full font-black hover:bg-primary-dark transition-all shadow-[0_10px_20px_rgba(16,185,129,0.1)] active:scale-95">
+                <button className="self-start px-10 py-4 bg-primary text-white rounded-full font-black hover:bg-primary-dark transition-all shadow-[0_10px_20px_rgba(219,156,121,0.1)] active:scale-95">
                   Secure Your Spot
                 </button>
               </div>

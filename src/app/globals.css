@@ -4,11 +4,13 @@
   --background: #ffffff;
   --foreground: #0A0A0A;
   
-  --primary: #10B981;
-  --primary-dark: #059669;
-  --primary-light: #D1FAE5;
+  --primary: #DB9C79;
+  --primary-dark: #C48662;
+  --primary-light: #EBC8B4;
   
-  --secondary-cyan: #0891B2;
+  --secondary-brand: #10B981;
+  --secondary-brand-dark: #059669;
+  --secondary-brand-light: #D1FAE5;
   --secondary-amber: #F59E0B;
   --accent-violet: #7C3AED;
   
@@ -30,7 +32,10 @@
 
   --color-primary: var(--primary);
   --color-primary-dark: var(--primary-dark);
-  --color-secondary-cyan: var(--secondary-cyan);
+  --color-primary-light: var(--primary-light);
+  --color-secondary-brand: var(--secondary-brand);
+  --color-secondary-brand-dark: var(--secondary-brand-dark);
+  --color-secondary-brand-light: var(--secondary-brand-light);
   --color-secondary-amber: var(--secondary-amber);
   --color-accent-violet: var(--accent-violet);
   
@@ -58,15 +63,16 @@ body {
 .animation-delay-4000 { animation-delay: 4s; }
 
 .gradient-primary {
-  background: linear-gradient(135deg, #10B981, #22D3EE);
+  background: linear-gradient(135deg, var(--primary), var(--secondary-brand));
 }
 
 .gradient-hero {
-  background: linear-gradient(135deg, #10B981, #7C3AED);
+  background: linear-gradient(135deg, var(--primary), var(--accent-violet));
 }
 
 .text-gradient-primary {
-  background: linear-gradient(135deg, #10B981, #0891B2);
+  background: linear-gradient(135deg, var(--primary), var(--secondary-brand-dark));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

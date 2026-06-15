@@ -40,7 +40,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="flex gap-6">
-                <div className="w-14 h-14 bg-secondary-cyan/5 rounded-2xl flex items-center justify-center text-secondary-cyan shrink-0 border border-secondary-cyan/10">
+                <div className="w-14 h-14 bg-secondary-brand/5 rounded-2xl flex items-center justify-center text-secondary-brand shrink-0 border border-secondary-brand/10">
                   <MessageSquare size={28} />
                 </div>
                 <div>
@@ -65,7 +65,7 @@ export default function ContactPage() {
                 <a href="#" className="w-14 h-14 bg-gray-50 rounded-2xl flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all border border-gray-100 shadow-sm">
                   <SiGithub size={24} />
                 </a>
-                <a href="#" className="w-14 h-14 bg-gray-50 rounded-2xl flex items-center justify-center text-gray-400 hover:bg-secondary-cyan hover:text-white transition-all border border-gray-100 shadow-sm">
+                <a href="#" className="w-14 h-14 bg-gray-50 rounded-2xl flex items-center justify-center text-gray-400 hover:bg-secondary-brand hover:text-white transition-all border border-gray-100 shadow-sm">
                   <LinkedInIcon size={24} />
                 </a>
                 <a href="#" className="w-14 h-14 bg-gray-50 rounded-2xl flex items-center justify-center text-gray-400 hover:bg-black hover:text-white transition-all border border-gray-100 shadow-sm">

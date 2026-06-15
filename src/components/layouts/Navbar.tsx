@@ -68,7 +68,7 @@ export default function Navbar() {
               })}
               <Link
                 href="/join"
-                className="ml-4 bg-primary text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-primary-dark transition-all shadow-[0_4px_15px_rgba(16,185,129,0.2)]"
+                className="ml-4 bg-primary text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-primary-dark transition-all shadow-[0_4px_15px_rgba(219,156,121,0.2)]"
               >
                 Join Community
               </Link>

@@ -15,9 +15,9 @@ const features = [
     title: "Robotics & AI",
     description: "Create intelligent hardware solutions and explore the future of machine learning and autonomous systems.",
     icon: Brain,
-    color: "text-secondary-cyan",
-    bg: "bg-secondary-cyan/5",
-    border: "border-secondary-cyan/10",
+    color: "text-secondary-brand",
+    bg: "bg-secondary-brand/5",
+    border: "border-secondary-brand/10",
   },
   {
     title: "Advanced Workshops",
@@ -45,7 +45,7 @@ export default function Features() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="relative -top-20 md:-top-40 z-20 text-right mb-12">
-          <h3 className="text-6xl md:text-9xl font-black tracking-tighter leading-[0.8] mb-8">
+          <h3 className="text-7xl md:text-9xl font-black tracking-tighter leading-[0.8] mb-8">
             <span className="text-primary block">What</span>
             <span className="text-gradient-primary block">We Build</span>
           </h3>

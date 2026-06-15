@@ -12,7 +12,7 @@ export default function CTA() {
           Ready to Build, Learn, <br />
           and <span className="underline decoration-white/30 underline-offset-8">Innovate?</span>
         </h2>
-        <p className="text-xl text-primary-light max-w-3xl mx-auto mb-12 leading-relaxed font-medium">
+        <p className="text-xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed font-medium">
           Join a growing network of engineering students passionate about high-impact software development and technology.
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">

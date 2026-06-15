@@ -8,14 +8,14 @@ const projects = [
     description: "A smart environmental monitoring system using IoT and React.",
     tags: ["IoT", "React", "Node.js"],
     image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=800&auto=format&fit=crop",
-    gradient: "from-primary/10 to-secondary-cyan/10"
+    gradient: "from-primary/10 to-secondary-brand/10"
   },
   {
     title: "AI Study Buddy",
     description: "Personalized learning assistant powered by LLMs for engineering students.",
     tags: ["AI", "Next.js", "Python"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop",
-    gradient: "from-accent-violet/10 to-secondary-cyan/10"
+    gradient: "from-accent-violet/10 to-secondary-brand/10"
   },
   {
     title: "RoverX",
@@ -59,7 +59,7 @@ export default function FeaturedProjects({ isDark = false }: { isDark?: boolean 
                   <button className="p-3 bg-white rounded-full text-gray-900 hover:bg-primary hover:text-white transition-all border border-gray-100 shadow-lg">
                     <SiGithub size={20} />
                   </button>
-                  <button className="p-3 bg-white rounded-full text-gray-900 hover:bg-secondary-cyan hover:text-white transition-all border border-gray-100 shadow-lg">
+                  <button className="p-3 bg-white rounded-full text-gray-900 hover:bg-secondary-brand hover:text-white transition-all border border-gray-100 shadow-lg">
                     <ExternalLink size={20} />
                   </button>
                 </div>
@@ -70,7 +70,7 @@ export default function FeaturedProjects({ isDark = false }: { isDark?: boolean 
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-4 py-1.5 bg-gray-50 text-secondary-cyan text-xs font-black rounded-full border border-gray-100"
+                      className="px-4 py-1.5 bg-gray-50 text-secondary-brand text-xs font-black rounded-full border border-gray-100"
                     >
                       {tag}
                     </span>

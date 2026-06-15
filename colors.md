@@ -7,9 +7,9 @@
 Used for main buttons, logo accents, active states.
 
 ```css
-Primary: #10B981
-Dark: #059669
-Light: #D1FAE5
+Primary: #DB9C79
+Dark: #C48662
+Light: #EBC8B4
 ```
 
 ---
@@ -19,9 +19,9 @@ Light: #D1FAE5
 Used for links, hover effects, info highlights.
 
 ```css
-Cyan Base: #22D3EE
-Cyan Dark: #0891B2
-Cyan Light: #A5F3FC
+Brand Base: #10B981
+Brand Dark: #059669
+Brand Light: #D1FAE5
 ```
 
 ---
@@ -119,9 +119,9 @@ Warning Light: #FDE68A
 ## Info
 
 ```css
-Info: #38BDF8
-Info Dark: #0284C7
-Info Light: #BAE6FD
+Info: #10B981
+Info Dark: #059669
+Info Light: #D1FAE5
 ```
 
 ---
@@ -131,7 +131,7 @@ Info Light: #BAE6FD
 ## Primary Gradient
 
 ```css
-background: linear-gradient(135deg, #10B981, #22D3EE);
+background: linear-gradient(135deg, #DB9C79, #10B981);
 ```
 
 ---
@@ -139,7 +139,7 @@ background: linear-gradient(135deg, #10B981, #22D3EE);
 ## Hero Gradient
 
 ```css
-background: linear-gradient(135deg, #10B981, #7C3AED);
+background: linear-gradient(135deg, #DB9C79, #7C3AED);
 ```
 
 ---
@@ -147,7 +147,7 @@ background: linear-gradient(135deg, #10B981, #7C3AED);
 ## AI / Featured Gradient
 
 ```css
-background: linear-gradient(135deg, #7C3AED, #22D3EE);
+background: linear-gradient(135deg, #7C3AED, #10B981);
 ```
 
 ---
@@ -164,8 +164,8 @@ background: linear-gradient(135deg, #F59E0B, #EF4444);
 
 ## Buttons
 
-* Primary → Green
-* Secondary → Cyan
+* Primary → Brand (#DB9C79)
+* Secondary → Green (#10B981)
 * Danger → Red
 * Special → Violet
 
@@ -174,7 +174,7 @@ background: linear-gradient(135deg, #F59E0B, #EF4444);
 ## Tags
 
 * Success → Green
-* Tech → Cyan
+* Tech → Brand (#DB9C79)
 * Warning → Amber
 * Featured → Violet
 
@@ -184,6 +184,6 @@ background: linear-gradient(135deg, #F59E0B, #EF4444);
 
 * Background → Dark neutrals
 * Cards → Slightly lighter dark
-* Highlights → Cyan/Violet gradients
+* Highlights → Brand/Violet gradients
 
 ---
